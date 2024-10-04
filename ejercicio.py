@@ -23,3 +23,10 @@ inputEntrada = input("esto es secreto: ")
 mensajes = cifrador(inputEntrada)
 
 mensajes.cifrar()
+
+
+        #Expected index or slice expression ---> falto agregar el "indice"
+        #mensaje is not define --> definir mensaje con "self"
+        #TypeError: find() takes at least 1 argument (0 given) ---> agregar un argumento para el .find() "letra"
+        
+
